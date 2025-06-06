@@ -1,0 +1,34 @@
+html{
+    font-size: 24px;
+}
+.newspaper{
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+}
+.name{
+    font-size: 2em;
+    font-family: 'Times New Roman',serif;
+}
+.name,.author{
+    text-transform: uppercase;
+}
+.headline{
+    font-size: 2em;
+    font-weight: bold;
+}
+.sub-headline{
+    font-weight: 100;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.author{
+    font-weight: bold;
+}
+.text{
+    line-height: 2em;
+    text-indent: 20px;
+}
+.text::first-letter{
+    font-weight:bold;
+    font-size: 2em;
+}
